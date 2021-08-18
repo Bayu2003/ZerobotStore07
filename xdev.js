@@ -80,19 +80,19 @@ alasan = '-'
 
 const time2 = moment().tz('Asia/Jakarta').format('HH:mm:ss')
 if(time2 < "23:59:00"){
-var ucapanWaktu = 'Selamat malam 🌃'
+var ucapanWaktu = 'Selamat malam 🌙'
                                         }
 if(time2 < "19:00:00"){
-var ucapanWaktu = 'Selamat senja 🌆'
+var ucapanWaktu = 'Selamat senja 🌚'
                                          }
 if(time2 < "18:00:00"){
-var ucapanWaktu = 'Selamat sore 🌆'
+var ucapanWaktu = 'Selamat sore 🌘'
                                          }
 if(time2 < "15:00:00"){
-var ucapanWaktu = 'Selamat siang 🏙️'
+var ucapanWaktu = 'Selamat siang ☀️'
                                          }
 if(time2 < "11:00:00"){
-var ucapanWaktu = 'Selamat pagi 🌇'
+var ucapanWaktu = 'Selamat pagi 🌝'
                                          }
 if(time2 < "06:00:00"){
 var ucapanWaktu = 'Selamat pagi 🌅'                                       }
@@ -495,7 +495,7 @@ pic = 'https://i.ibb.co/Tq7d7TZ/age-hananta-495-photo.png'
 gambar = await getBuffer(pic)
 mhan = await xdev.prepareMessage(from, gambar, image, {thumbnail: gambar})
 gbutsan = [
-  {buttonId: 'OWNER', buttonText: {displayText: 'OWNER'}, type: 1},
+  {buttonId: 'SEWA BOT', buttonText: {displayText: 'SEWABOT'}, type: 1},
   {buttonId: 'YOUTUBE', buttonText: {displayText: 'YOUTUBE'}, type: 1},
   {buttonId: 'DONASI', buttonText: {displayText: 'DONASI'}, type: 1}
 ]
